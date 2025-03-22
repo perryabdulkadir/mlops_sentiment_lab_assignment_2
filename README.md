@@ -23,10 +23,7 @@ Next, to start, the app:
 python app.py
 ```
 The user begins in a state with no classes. This can be checked with a CURL request to the `get-classes` endpoint. 
-![Alt text](/screenshots/get_classes.png) 
-
-The user begins in a state with no classes. This can be checked with a CURL request to the `get-classes` endpoint. 
-![Alt text](/screenshots/get_classes.png) 
+![Alt text](screenshots/get_classes_1.png) 
 
 Next, the user sends the classes they wish to use in email classification to the `update-classes` endpoint. In this case, animals, sports, food, art, politics, and advertisements.
 ![Alt text](/screenshots/add_classes.png) 
