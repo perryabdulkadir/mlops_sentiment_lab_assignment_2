@@ -31,7 +31,7 @@ Next, the user sends the classes they wish to use in email classification to the
 When the user sends a request to `get-classes` again, we see that the JSON has been updated. 
 ![Alt text](/screenshots/get_classes_2.png) 
 
-Running the `classify` endpoint, the user inputs the text "Elephant". We can see the resulting probability of belonging to each category. Unsurprisingly, the category with the highest probability is "Animals". 
+Running the `classify` endpoint, the user inputs the text "Elephant". We can see the resulting probability of belonging to each category. Unsurprisingly, the category with the highest similarity is "Animals". 
 ![Alt text](/screenshots/classify_1.png) 
 
 We can also use the `update-classes` endpoint to delete classes from the JSON file. Say, for example, we want to remove "Advertisements" and "Sports" as categories.
@@ -40,7 +40,7 @@ We can also use the `update-classes` endpoint to delete classes from the JSON fi
 When we check the classes in the JSON, we see that "Advertisements" and "Sports" have been removed, as expected. 
 ![Alt text](/screenshots/get_classes_3.png) 
 
-With this updated set of classes, the user can run another piece of text to be classified. Now, we'll try "My favorite thing to eat is cheese." As expected, "Food" is the category with the highest probability. 
+With this updated set of classes, the user can run another piece of text to be classified. Now, we'll try "My favorite thing to eat is cheese." As expected, "Food" is the category with the highest similarity. 
 ![Alt text](/screenshots/classify_2.png) 
 
 With this system, a user can extend to as many classification categories as they like. 
