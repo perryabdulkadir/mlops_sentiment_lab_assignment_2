@@ -11,6 +11,12 @@ I also added a GET endpoint that allows users to check at a glance which classes
 ![Alt text](/screenshots/get_classes.png?raw=true) 
 
 ## Demo
+The user begins in a state with no classes. This can be checked with a CURL request to the `get-classes` endpoint. 
+![Alt text](/screenshots/get_classes.png) 
+
+
+
+
 
 
 Lab 1: Sentiment Analysis
