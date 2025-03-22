@@ -1,7 +1,7 @@
 # Assignment #2
 Perry Abdulkadir
 
-SEIS 765
+SEIS 765 - ML Ops
 
 ## Approach
 First, I created an empty JSON file (`email_classes.json`) to contain the list of classes to be used in email classification. I updated `analyze.py` to read in email classes from this file, instead of being hard coded. 
