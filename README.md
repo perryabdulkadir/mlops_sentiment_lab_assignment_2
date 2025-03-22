@@ -1,5 +1,6 @@
 # Assignment #2
 Perry Abdulkadir
+
 SEIS 765
 
 ## Approach
