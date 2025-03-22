@@ -1,4 +1,6 @@
 # Assignment #2
+Perry Abdulkadir
+SEIS 765
 
 ## Approach
 First, I created an empty JSON file (`email_classes.json`) to contain the list of classes to be used in email classification. I updated `analyze.py` to read in email classes from this file, instead of being hard coded. 
@@ -34,7 +36,13 @@ When the user sends a request to `get-classes` again, we see that the JSON has b
 Running the `classify` endpoint, the user inputs the text "Elephant". We can see the resulting probability of belonging to each category. Unsurprisingly, the category with the highest probability is "Animals". 
 ![Alt text](/screenshots/classify_1.png) 
 
+We can also use the `update-classes` endpoint to delete classes from the JSON file. Say, for example, we want to remove "Advertisements" and "Sports" as categories.
+![Alt text](/screenshots/classes_deleted.png) 
 
+When we check the classes in the JSON, we see that "Advertisements" and "Sports" have been removed, as expected. 
+![Alt text](/screenshots/get_classes_3.png) 
 
+With this updated set of classes, the user can run another piece of text to be classified. Now, we'll try "My favorite thing to eat is cheese." As expected, "Food" is the category with the highest probability. 
+![Alt text](/screenshots/classify_2.png) 
 
-![Alt text](/screenshots/get_classes.png) 
+With this system, a user can extend to as many classification categories as they like. 
