@@ -1,2 +1,13 @@
-# mlops_sentiment_lab_assignment_2
-Assignment 2 for SEIS 765 - ML Ops
+Lab 1: Sentiment Analysis
+
+Explore flask and huggingface transformers.
+
+To run the app:
+```
+python app.py
+```
+
+To install the dependencies:
+```
+pip install -r requirements.txt
+```
